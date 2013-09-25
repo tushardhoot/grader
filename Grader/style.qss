@@ -1,0 +1,28 @@
+QMainWindow {
+	min-width: 800px;
+    min-height: 600px;
+}
+
+QLabel#gdPass {
+	padding: 5px;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #2DB009, stop: 1 #3EEB0E);
+	border-radius: 5px;
+	qproperty-alignment: AlignCenter;
+}
+
+QLabel#gdFail {
+	padding: 5px;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #D60000, stop: 1 #FC0F0F);
+	border-radius: 5px;
+	qproperty-alignment: AlignCenter;
+}
+
+QLabel#gdCond {
+	padding: 5px;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #FAFA32, stop: 1 #F7F700);
+	border-radius: 5px;
+	qproperty-alignment: AlignCenter;
+}
